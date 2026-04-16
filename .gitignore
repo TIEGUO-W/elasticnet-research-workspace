@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv*/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OpenClaw internal
+.openclaw/
+
+# Large generated files (keep CSV, drop heavy PNG if needed)
+# results/ kept
+
+# Byte-compiled
+*.pyc
+
+# Data files (too large for git, link to external storage)
+# PHITS data is not included - available on request
+skills/
